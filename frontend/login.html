@@ -11,13 +11,19 @@
         </div>
         
         <div>
-            <form class="login-container">
+            <form id="loginForm" class="login-container">
                 <label class="login-label">Email</label>
-                <input class="login-input" type="email" required> 
+                <input id="email1" class="login-input" type="email" autofocus required> 
                 <label class="login-label">Password</label>
-                <input class="login-input" type="password" required>
+                <input id="password1" class="login-input" type="password" minlength=12 required>
                 <button class="btn" type="submit">Login</button>
             </form>
         </div>
+
+        <div id="output">
+
+        </div>
+
+        <script src="test.js" defer></script>
     </body>
 </html>

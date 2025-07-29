@@ -52,7 +52,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 150px;
     padding: 10px 20px;
 }
 
@@ -62,5 +62,6 @@ html{
 }
 
 .login-input{
+    width: 200px;
     padding: 10px 20px;
 }
