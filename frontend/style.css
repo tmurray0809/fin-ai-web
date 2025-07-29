@@ -1,0 +1,32 @@
+html{
+    color: white;
+    background-color: #222831;
+}
+
+.start-btn{
+    background-color: #393E46;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+}
+
+.start-btn:hover{
+    background-color: #393E40;
+}
+
+.start-btn:active{
+    background-color: #41463d;
+}
+
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100hfmhjfyruyruypx;
+    padding: 10px 20px
+}
