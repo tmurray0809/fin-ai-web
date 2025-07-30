@@ -23,3 +23,8 @@ async def login(data: User):
     if data.email == "tmurray2024@gmail.com" and data.password == "Parkview2015!":
         return {"message":"success"}
     raise HTTPException(status_code=401, detail="Incorrect Username or Password")
+
+@app.post("/register")
+async def register(data: User):
+    print(data)
+    
